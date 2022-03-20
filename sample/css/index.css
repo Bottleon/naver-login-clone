@@ -1,0 +1,159 @@
+@import url("/css/animation.css");
+
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  border: none;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder {
+  opacity: 0.5;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: none;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  opacity: 0.3;
+  border: 2px solid gray;
+  border-radius: 50%;
+  font-size: 0.7em;
+  font-weight: 1000;
+}
+
+input[type="checkbox"]:checked + label {
+  opacity: 1;
+  border: 2px solid #03c75a;
+  background-color: #03c75a;
+  color: white;
+}
+
+.container > .login-card > .login-form > .username,
+.password {
+  padding: 10px 17px 9px 17px;
+  box-sizing: border-box;
+  border: 1px solid #c6c6c6;
+  border-radius: 5px;
+  display: flex;
+}
+
+.container > .login-card > .login-form > .password {
+  border-top: none;
+}
+
+.container > .login-card > .login-form > .username > .username--icon {
+  background-image: url("/images/user.png");
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.container > .login-card > .login-form > .password > .password--icon {
+  background-image: url("/images/password.png");
+  width: 15px;
+  height: 15px;
+  background-size: cover;
+  opacity: 0.3;
+}
+
+.container > .login-card > .login-form > .check-cookie {
+  left: 0;
+  margin: 10px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container > .login-card > .login-form > .check-cookie > .keep-login > span {
+  font-size: 0.8em;
+  opacity: 0.8;
+}
+
+.container > .login-card > .login-form > .check-cookie > .secure-ip {
+  display: flex;
+  align-items: center;
+}
+
+.container > .login-card > .login-form > .check-cookie > .secure-ip > span {
+  padding-right: 6px;
+  font-size: 0.8em;
+  color: #7777a3;
+}
+
+.container > .login-card > .login-form > .check-cookie .secure-ip > .switch {
+  width: 30px;
+  height: 16px;
+  background-color: #c3c8c9;
+  border-radius: 10px;
+}
+
+.container
+  > .login-card
+  > .login-form
+  > .check-cookie
+  > .secure-ip
+  > .switch
+  > .switch-toggle {
+  width: 12px;
+  height: 12px;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 2px;
+}
+
+.on {
+  animation-duration: 0.3s;
+  animation-name: slidein;
+  animation-fill-mode: forwards;
+}
+
+.off {
+  animation-duration: 0.3s;
+  animation-name: slideout;
+  animation-fill-mode: forwards;
+}
+
+.container > .login-card > .login-form > .login-btn_wrap > .login-btn {
+  width: 100%;
+  padding: 13px 0;
+  background-color: #03c75a;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.1em;
+  font-weight: 1000;
+  margin: 0px 0 4px 0;
+}
+
+/* 카테고리 바꾸기 */
+.login--img {
+  background-color: #03c75a;
+  opacity: 0.5;
+}
+.login--img + span {
+  color: black;
+}
+.categories > li:first-child {
+  border-right: 2px solid #d4d4d4;
+}
+
+.categories > li:not(:first-child) {
+  border-bottom: 1.5px solid #d4d4d4;
+  background-color: #f8f9fa;
+}
