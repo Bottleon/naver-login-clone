@@ -186,13 +186,13 @@ body {
 }
 
 .categories .login--img {
-  background-image: url("/images/login.png");
+  background-image: url("../images/login.png");
 }
 
 .categories .one--img {
-  background-image: url("/images/one.png");
+  background-image: url("../images/one.png");
 }
 
 .categories .qr--img {
-  background-image: url("/images/qr-code.png");
+  background-image: url("../images/qr-code.png");
 }

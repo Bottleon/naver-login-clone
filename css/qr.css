@@ -16,7 +16,7 @@
 .qrcode--img {
   width: 70px;
   height: 70px;
-  background-image: url("/images/qr-code.png");
+  background-image: url("../images/qr-code.png");
   background-size: contain;
 }
 

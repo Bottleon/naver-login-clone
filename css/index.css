@@ -57,7 +57,7 @@ input[type="checkbox"]:checked + label {
 }
 
 .container > .login-card > .login-form > .username > .username--icon {
-  background-image: url("/images/user.png");
+  background-image: url("../images/user.png");
   width: 15px;
   height: 15px;
   background-size: cover;
@@ -65,7 +65,7 @@ input[type="checkbox"]:checked + label {
 }
 
 .container > .login-card > .login-form > .password > .password--icon {
-  background-image: url("/images/password.png");
+  background-image: url("../images/password.png");
   width: 15px;
   height: 15px;
   background-size: cover;
