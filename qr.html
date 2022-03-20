@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/qr.css" />
+    <link rel="stylesheet" href="/css/common.css" />
+    <script src="/js/qr.js"></script>
+  </head>
+  <body>
+    <!--
+        1. html Tag
+        2. css 작성법(문법 : 선택자,속성)
+
+        과제선택
+        1.로그인 페이지
+    -->
+    <wrap class="wrap">
+      <header class="header">
+        <div class="header-info">
+          <a href="/index.html">
+            <h1 class="title">NAVER</h1>
+          </a>
+          <select class="language-selector">
+            <option value="">한국어</option>
+            <option value="">English</option>
+            <option value="">中文(简体)</option>
+            <option value="">中文(台灣)</option>
+          </select>
+        </div>
+      </header>
+      <div class="container">
+        <div class="login-card" id="a">
+          <ul class="categories" id="category_container">
+            <li>
+              <a href="index.html" class="category--login">
+                <span>
+                  <span class="login--img categoriy-img"></span>
+                  <span>ID 로그인</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="one.html" class="category--one">
+                <span>
+                  <span class="one--img categoriy-img"></span>
+                  <span>일회용 번호</span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="qr.html" class="category--qr">
+                <span>
+                  <span class="qr--img categoriy-img"></span>
+                  <span>QR코드</span>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <div class="qr-form">
+            <div class="qr-img-box">
+              <div class="qrcode--img"></div>
+              <div class="limit-time">
+                남은시간<br /><span class="timer" id="timer">03분 00초</span>
+              </div>
+            </div>
+            <p class="qr-explain">
+              공용 네트워크, 공용 PC라면 안전을 위해<br />
+              QR코드로 로그인해주세요.<br />
+            </p>
+            <p class="thin">
+              네이버 앱 > 렌즈 를 눌러 QR코드를 스캔하여<br />
+              보이는 숫자 중 61를 선택하면 로그인 됩니다. 도움말
+            </p>
+          </div>
+        </div>
+        <ul class="find-wrap">
+          <li>
+            <a
+              href="https://nid.naver.com/user2/help/pwInquiry?lang=ko_KR"
+              target="_blank"
+              >비밀번호 찾기</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://nid.naver.com/user2/help/idInquiry?lang=ko_KR"
+              target="_blank"
+              >아이디 찾기</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://nid.naver.com/user2/V2Join?m=agree&lang=ko_KR"
+              target="_blank"
+              >회원가입</a
+            >
+          </li>
+        </ul>
+        <a
+          href="https://campaign.naver.com/security/?pcode=Naver_pclogin_2"
+          target="_blank"
+        >
+          <img src="/images/naver.jpg" />
+        </a>
+      </div>
+      <footer class="footer">
+        <div class="footer-info">
+          <ul class="footer__link">
+            <li>
+              <a
+                target="_blank"
+                href="https://policy.naver.com/rules/service.html"
+                >이용약관</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://policy.naver.com/rules/privacy.html"
+                >개인정보처리방침</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://policy.naver.com/rules/disclaimer.html"
+                >책임의 한계와 법적고지</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://help.naver.com/support/service/main.help?serviceNo=532"
+                >회원정보 고객센터</a
+              >
+            </li>
+          </ul>
+          <div class="footer__copy-right">
+            <a target="_blank" href="https://www.navercorp.com/">NAVER</a>
+            <span>Copyright</span>
+            <span>© NAVER Corp.</span>
+            <span>All Rights Reserved.</span>
+          </div>
+        </div>
+      </footer>
+    </wrap>
+  </body>
+</html>
