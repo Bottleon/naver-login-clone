@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "baseUrl": "sample"
+    "baseUrl": "naver-login-clone"
   },
-  "include": ["sample"]
+  "include": ["naver-login-clone"]
 }
